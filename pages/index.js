@@ -61,7 +61,7 @@ const Home = () => {
       headers: {
         'Content-Type': 'image/jpeg',
       },
-      body: JSON.stringify({ finalInput }),
+      body: JSON.stringify({ input }),
     });
 
     const data = await response.json();
